@@ -23,19 +23,19 @@ The main function you should be using is `getElections([options])`.
 
 `options` is an optional settings object, with the following parameters being recognized:
 
-####year
+#### year
 	* Specify a year number to only return elections from that year.
 	* Default value is any
-####month
+#### month
 	* Specify a month number to only return elections from that month.
 	* Default value is any
-####after
-	* A date object (Or [equivalent]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date)) that all elections returned will be after
+#### after
+	* A date object (Or [equivalent](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date)) that all elections returned will be after
 	* Default value is today
-####before
-	* A date object (Or [equivalent]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date)) that all elections returned will be before
+#### before
+	* A date object (Or [equivalent](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date)) that all elections returned will be before
 	* Default value is a year from today
-####state
+#### state
 	* Specify a state to only get elections from that state
 	* Can be a state's full name like `"Oklahoma"`, or a state's shortened name like `"OK"`
 	* If unspecified, will return elections from all states.

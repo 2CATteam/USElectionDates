@@ -24,21 +24,21 @@ The main function you should be using is `getElections([options])`.
 `options` is an optional settings object, with the following parameters being recognized:
 
 #### year
-	* Specify a year number to only return elections from that year.
-	* Default value is any
+* Specify a year number to only return elections from that year.
+* Default value is any
 #### month
-	* Specify a month number to only return elections from that month.
-	* Default value is any
+* Specify a month number to only return elections from that month.
+* Default value is any
 #### after
-	* A date object (Or [equivalent](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date)) that all elections returned will be after
-	* Default value is today
+* A date object (Or [equivalent](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date)) that all elections returned will be after
+* Default value is today
 #### before
-	* A date object (Or [equivalent](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date)) that all elections returned will be before
-	* Default value is a year from today
+* A date object (Or [equivalent](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date)) that all elections returned will be before
+* Default value is a year from today
 #### state
-	* Specify a state to only get elections from that state
-	* Can be a state's full name like `"Oklahoma"`, or a state's shortened name like `"OK"`
-	* If unspecified, will return elections from all states.
+* Specify a state to only get elections from that state
+* Can be a state's full name like `"Oklahoma"`, or a state's shortened name like `"OK"`
+* If unspecified, will return elections from all states.
 
 This function should return an array of objects of the following form:
 ```
